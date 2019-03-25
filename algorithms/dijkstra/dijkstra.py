@@ -42,4 +42,4 @@ def dijkstra(filename, start_node=0, end_node=None):
     return dists
 
 if __name__ == '__main__':
-    print(dijkstra('test.in', start_node=2, end_node=1))
+    print(dijkstra('test.in'))
